@@ -30,4 +30,16 @@
 
 3. Design Requirements
 
-   - 
+   - Thought process - analyzing  which tradeoff can be made, which sacrifice can be made to get improvement. 
+   - Typically design requirements involve
+
+     - move data
+     - store data
+     - transform data
+     
+   - Availability - benchmarks to ensure the design is good or not.
+
+   ``Availability = Uptime / Uptime + Downtime``
+   
+    - SLO - service level objective
+    - SLA - service level agreement (ex. if AWS don't reach some level SLA, AWS will partially refund)
